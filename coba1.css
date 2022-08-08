@@ -139,11 +139,6 @@ p {
    padding: 10px 0px 10px 0px; 
 }
 
-.img-emel {
-    border: 4px solid rgb(188, 85, 102);
-}
-
-
 /*untuk xayah*/
 
 .kolom2 .deskripsi2 {
@@ -155,10 +150,6 @@ p {
 
 .pxayah {
         font-family: 'comic sans ms';
-}
-
-.imgxayah {
-    margin-left: 50px;
 }
 
 a.yanto {
@@ -327,6 +318,79 @@ a.yanto:hover {
     width: 100%;
     line-height: 50px;
 }
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+    .logo {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    nav .menu {
+        width: 100%;
+        margin: 0px;
+    }
+    
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+    
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+    
+    section {
+        display: block;
+    }
+    
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    .helem {
+        width: 50%;
+    }
+    
+    .pubglist {
+        width: 50%;
+    }
+
+    .partnerlist img {
+        width: 90%;
+        height: auto;
+    }
+
+    .footer {
+        display: block;
+    }
+    
+    .img-emel {
+        width: 30%;
+        height: auto;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
